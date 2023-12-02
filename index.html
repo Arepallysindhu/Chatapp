@@ -1,32 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>ChatApp</title>
+<head lang="en">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>chat window</title>
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 
 <body>
-  <header>
-    <h1>ChatApp</h1>
-  </header>
-  <div class="container">
-    <div class="chat-window">
-      <div class="chat-area">
-        <div class="chat message">
+    <header>Chat App</header>
+    <div class="container">
+        <div class="chat-window">
+            <div class="chat-area">
+                <div class="chat-messages">
 
+                </div>
+            </div>
+           
+            <div class="user-input">
+                <input type="text"  id="message-input" placeholder="enter message">
+                <button id="send-button">send</button>
+            </div>
         </div>
-        
-      </div>
-      <div class="user-input">
-        <input type="text" id="message-input" placeholder="Type your message...">
-        <button id="send-button">Send</button>
-      </div>
     </div>
-  </div>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
+        
+      
